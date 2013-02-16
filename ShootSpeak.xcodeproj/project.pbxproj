@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9C79B716CF365A00C68529 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79B616CF365A00C68529 /* UIKit.framework */; };
+		0D9C79B916CF365A00C68529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79B816CF365A00C68529 /* Foundation.framework */; };
+		0D9C79BB16CF365A00C68529 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79BA16CF365A00C68529 /* CoreGraphics.framework */; };
+		0D9C79C116CF365A00C68529 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79BF16CF365A00C68529 /* InfoPlist.strings */; };
+		0D9C79C316CF365A00C68529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C79C216CF365A00C68529 /* main.m */; };
+		0D9C79C716CF365A00C68529 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C79C616CF365A00C68529 /* SSAppDelegate.m */; };
+		0D9C79C916CF365A00C68529 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79C816CF365A00C68529 /* Default.png */; };
+		0D9C79CB16CF365A00C68529 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79CA16CF365A00C68529 /* Default@2x.png */; };
+		0D9C79CD16CF365A00C68529 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79CC16CF365A00C68529 /* Default-568h@2x.png */; };
+		0D9C79D016CF365A00C68529 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C79CF16CF365A00C68529 /* SSViewController.m */; };
+		0D9C79D316CF365A00C68529 /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79D116CF365A00C68529 /* SSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D9C79B216CF365A00C68529 /* ShootSpeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShootSpeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9C79B616CF365A00C68529 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D9C79B816CF365A00C68529 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D9C79BA16CF365A00C68529 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D9C79BE16CF365A00C68529 /* ShootSpeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShootSpeak-Info.plist"; sourceTree = "<group>"; };
+		0D9C79C016CF365A00C68529 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D9C79C216CF365A00C68529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D9C79C416CF365A00C68529 /* ShootSpeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShootSpeak-Prefix.pch"; sourceTree = "<group>"; };
+		0D9C79C516CF365A00C68529 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		0D9C79C616CF365A00C68529 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		0D9C79C816CF365A00C68529 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0D9C79CA16CF365A00C68529 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0D9C79CC16CF365A00C68529 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0D9C79CE16CF365A00C68529 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		0D9C79CF16CF365A00C68529 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
+		0D9C79D216CF365A00C68529 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9C79AF16CF365A00C68529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C79B716CF365A00C68529 /* UIKit.framework in Frameworks */,
+				0D9C79B916CF365A00C68529 /* Foundation.framework in Frameworks */,
+				0D9C79BB16CF365A00C68529 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9C79A716CF365A00C68529 = {
+			isa = PBXGroup;
+			children = (
+				0D9C79BC16CF365A00C68529 /* ShootSpeak */,
+				0D9C79B516CF365A00C68529 /* Frameworks */,
+				0D9C79B316CF365A00C68529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9C79B316CF365A00C68529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C79B216CF365A00C68529 /* ShootSpeak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9C79B516CF365A00C68529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C79B616CF365A00C68529 /* UIKit.framework */,
+				0D9C79B816CF365A00C68529 /* Foundation.framework */,
+				0D9C79BA16CF365A00C68529 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D9C79BC16CF365A00C68529 /* ShootSpeak */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C79C516CF365A00C68529 /* SSAppDelegate.h */,
+				0D9C79C616CF365A00C68529 /* SSAppDelegate.m */,
+				0D9C79CE16CF365A00C68529 /* SSViewController.h */,
+				0D9C79CF16CF365A00C68529 /* SSViewController.m */,
+				0D9C79D116CF365A00C68529 /* SSViewController.xib */,
+				0D9C79BD16CF365A00C68529 /* Supporting Files */,
+			);
+			path = ShootSpeak;
+			sourceTree = "<group>";
+		};
+		0D9C79BD16CF365A00C68529 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C79BE16CF365A00C68529 /* ShootSpeak-Info.plist */,
+				0D9C79BF16CF365A00C68529 /* InfoPlist.strings */,
+				0D9C79C216CF365A00C68529 /* main.m */,
+				0D9C79C416CF365A00C68529 /* ShootSpeak-Prefix.pch */,
+				0D9C79C816CF365A00C68529 /* Default.png */,
+				0D9C79CA16CF365A00C68529 /* Default@2x.png */,
+				0D9C79CC16CF365A00C68529 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D9C79B116CF365A00C68529 /* ShootSpeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9C79D616CF365A00C68529 /* Build configuration list for PBXNativeTarget "ShootSpeak" */;
+			buildPhases = (
+				0D9C79AE16CF365A00C68529 /* Sources */,
+				0D9C79AF16CF365A00C68529 /* Frameworks */,
+				0D9C79B016CF365A00C68529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShootSpeak;
+			productName = ShootSpeak;
+			productReference = 0D9C79B216CF365A00C68529 /* ShootSpeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9C79A916CF365A00C68529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Atsuto;
+			};
+			buildConfigurationList = 0D9C79AC16CF365A00C68529 /* Build configuration list for PBXProject "ShootSpeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D9C79A716CF365A00C68529;
+			productRefGroup = 0D9C79B316CF365A00C68529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9C79B116CF365A00C68529 /* ShootSpeak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9C79B016CF365A00C68529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C79C116CF365A00C68529 /* InfoPlist.strings in Resources */,
+				0D9C79C916CF365A00C68529 /* Default.png in Resources */,
+				0D9C79CB16CF365A00C68529 /* Default@2x.png in Resources */,
+				0D9C79CD16CF365A00C68529 /* Default-568h@2x.png in Resources */,
+				0D9C79D316CF365A00C68529 /* SSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9C79AE16CF365A00C68529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C79C316CF365A00C68529 /* main.m in Sources */,
+				0D9C79C716CF365A00C68529 /* SSAppDelegate.m in Sources */,
+				0D9C79D016CF365A00C68529 /* SSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D9C79BF16CF365A00C68529 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9C79C016CF365A00C68529 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D9C79D116CF365A00C68529 /* SSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9C79D216CF365A00C68529 /* en */,
+			);
+			name = SSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D9C79D416CF365A00C68529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D9C79D516CF365A00C68529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D9C79D716CF365A00C68529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShootSpeak/ShootSpeak-Prefix.pch";
+				INFOPLIST_FILE = "ShootSpeak/ShootSpeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D9C79D816CF365A00C68529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShootSpeak/ShootSpeak-Prefix.pch";
+				INFOPLIST_FILE = "ShootSpeak/ShootSpeak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9C79AC16CF365A00C68529 /* Build configuration list for PBXProject "ShootSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C79D416CF365A00C68529 /* Debug */,
+				0D9C79D516CF365A00C68529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9C79D616CF365A00C68529 /* Build configuration list for PBXNativeTarget "ShootSpeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C79D716CF365A00C68529 /* Debug */,
+				0D9C79D816CF365A00C68529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9C79A916CF365A00C68529 /* Project object */;
+}
