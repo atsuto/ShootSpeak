@@ -18,6 +18,11 @@
 		0D9C79CD16CF365A00C68529 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79CC16CF365A00C68529 /* Default-568h@2x.png */; };
 		0D9C79D016CF365A00C68529 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C79CF16CF365A00C68529 /* SSViewController.m */; };
 		0D9C79D316CF365A00C68529 /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C79D116CF365A00C68529 /* SSViewController.xib */; };
+		0D9C79E416CF389900C68529 /* libAqKanji2Koe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79E016CF389900C68529 /* libAqKanji2Koe.a */; };
+		0D9C79E516CF389900C68529 /* libAquesTalk2Eva.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79E316CF389900C68529 /* libAquesTalk2Eva.a */; };
+		0D9C79E716CF39EF00C68529 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79E616CF39EF00C68529 /* AudioToolbox.framework */; };
+		0D9C79E916CF3A0700C68529 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C79E816CF3A0700C68529 /* AVFoundation.framework */; };
+		0D9C7A0D16CF4A0100C68529 /* aq_dic in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C7A0C16CF4A0100C68529 /* aq_dic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,13 @@
 		0D9C79CE16CF365A00C68529 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
 		0D9C79CF16CF365A00C68529 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSViewController.m; sourceTree = "<group>"; };
 		0D9C79D216CF365A00C68529 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+		0D9C79E016CF389900C68529 /* libAqKanji2Koe.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAqKanji2Koe.a; sourceTree = "<group>"; };
+		0D9C79E216CF389900C68529 /* AquesTalk2_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AquesTalk2_iPhone.h; sourceTree = "<group>"; };
+		0D9C79E316CF389900C68529 /* libAquesTalk2Eva.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAquesTalk2Eva.a; sourceTree = "<group>"; };
+		0D9C79E616CF39EF00C68529 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0D9C79E816CF3A0700C68529 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D9C7A0B16CF436600C68529 /* AqKanji2koe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AqKanji2koe.h; sourceTree = "<group>"; };
+		0D9C7A0C16CF4A0100C68529 /* aq_dic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = aq_dic; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +56,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9C79E916CF3A0700C68529 /* AVFoundation.framework in Frameworks */,
+				0D9C79E716CF39EF00C68529 /* AudioToolbox.framework in Frameworks */,
 				0D9C79B716CF365A00C68529 /* UIKit.framework in Frameworks */,
 				0D9C79B916CF365A00C68529 /* Foundation.framework in Frameworks */,
 				0D9C79BB16CF365A00C68529 /* CoreGraphics.framework in Frameworks */,
+				0D9C79E416CF389900C68529 /* libAqKanji2Koe.a in Frameworks */,
+				0D9C79E516CF389900C68529 /* libAquesTalk2Eva.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +72,7 @@
 		0D9C79A716CF365A00C68529 = {
 			isa = PBXGroup;
 			children = (
+				0D9C7A0C16CF4A0100C68529 /* aq_dic */,
 				0D9C79BC16CF365A00C68529 /* ShootSpeak */,
 				0D9C79B516CF365A00C68529 /* Frameworks */,
 				0D9C79B316CF365A00C68529 /* Products */,
@@ -73,6 +90,8 @@
 		0D9C79B516CF365A00C68529 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D9C79E816CF3A0700C68529 /* AVFoundation.framework */,
+				0D9C79E616CF39EF00C68529 /* AudioToolbox.framework */,
 				0D9C79B616CF365A00C68529 /* UIKit.framework */,
 				0D9C79B816CF365A00C68529 /* Foundation.framework */,
 				0D9C79BA16CF365A00C68529 /* CoreGraphics.framework */,
@@ -83,6 +102,7 @@
 		0D9C79BC16CF365A00C68529 /* ShootSpeak */ = {
 			isa = PBXGroup;
 			children = (
+				0D9C79DD16CF389900C68529 /* Lib */,
 				0D9C79C516CF365A00C68529 /* SSAppDelegate.h */,
 				0D9C79C616CF365A00C68529 /* SSAppDelegate.m */,
 				0D9C79CE16CF365A00C68529 /* SSViewController.h */,
@@ -105,6 +125,33 @@
 				0D9C79CC16CF365A00C68529 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D9C79DD16CF389900C68529 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C79DE16CF389900C68529 /* AqKanji2koe */,
+				0D9C79E116CF389900C68529 /* AquesTalk2 */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0D9C79DE16CF389900C68529 /* AqKanji2koe */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C7A0B16CF436600C68529 /* AqKanji2koe.h */,
+				0D9C79E016CF389900C68529 /* libAqKanji2Koe.a */,
+			);
+			path = AqKanji2koe;
+			sourceTree = "<group>";
+		};
+		0D9C79E116CF389900C68529 /* AquesTalk2 */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C79E216CF389900C68529 /* AquesTalk2_iPhone.h */,
+				0D9C79E316CF389900C68529 /* libAquesTalk2Eva.a */,
+			);
+			path = AquesTalk2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +211,7 @@
 				0D9C79CB16CF365A00C68529 /* Default@2x.png in Resources */,
 				0D9C79CD16CF365A00C68529 /* Default-568h@2x.png in Resources */,
 				0D9C79D316CF365A00C68529 /* SSViewController.xib in Resources */,
+				0D9C7A0D16CF4A0100C68529 /* aq_dic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +304,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShootSpeak/ShootSpeak-Prefix.pch";
 				INFOPLIST_FILE = "ShootSpeak/ShootSpeak-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ShootSpeak/Lib/AqKanji2koe\"",
+					"\"$(SRCROOT)/ShootSpeak/Lib/AquesTalk2\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lpthread",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -267,6 +324,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShootSpeak/ShootSpeak-Prefix.pch";
 				INFOPLIST_FILE = "ShootSpeak/ShootSpeak-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ShootSpeak/Lib/AqKanji2koe\"",
+					"\"$(SRCROOT)/ShootSpeak/Lib/AquesTalk2\"",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lpthread",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
